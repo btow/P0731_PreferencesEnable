@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">P0731_PreferencesEnable</string>
+    <string name="descripton_of_check_box_1_off">Descripton of check box 1 off</string>
+    <string name="descripton_of_check_box_1_on">Descripton of check box 1 on</string>
+    <string name="description_of_list">Description of list</string>
+    <string name="list_preference">List preference</string>
+    <string name="description_of_check_box_2">Description of check box 2</string>
+    <string name="check_box_2_preference">Check box 2 preference</string>
+    <string name="check_box_1_preference">Check box 1 preference</string>
+    <string name="description_of_screen_preference">Description of screen preference</string>
+    <string name="screen_preference">Screen preference</string>
+    <string name="description_of_check_box_3">Description of check box 3</string>
+    <string name="check_box_3_preference">Check box 3 preference</string>
+    <string name="description_of_category_preference_1">Description of category preference 1</string>
+    <string name="description_of_category_preference_2">Description of category preference 2</string>
+    <string name="category_preference_1_title">Category preference 1</string>
+    <string name="category_preference_2_title">Category preference 2</string>
+    <string name="description_of_check_box_1_of_category_1_of_screen_preference_1">Description of check box 1 of category 1 of screen preference 1</string>
+    <string name="description_of_check_box_2_of_category_2_of_screen_preference_1">Description of check box 2 of category 2 of screen preference 1</string>
+    <string name="description_of_check_box_1_of_category_2_of_screen_preference_1">Description of check box 1 of category 2 of screen preference 1</string>
+    <string name="check_box_1_of_category_1_of_screen_preference_1">Check box 1 of category 1 of screen preference 1</string>
+    <string name="check_box_2_of_category_2_of_screen_preference_1">Check box 2 of category 2 of screen preference 1</string>
+    <string name="check_box_1_of_category_2_of_screen_preference_1">Check box 1 of category 2 of screen preference 1</string>
+    <string name="check_box_preference_1">check_box_preference_1</string>
+    <string name="list_preference_1">list_preference_1</string>
+    <string name="check_box_preference_2">check_box_preference_2</string>
+    <string name="check_box_preference_3_screen_preference_1">check_box_preference_3_screen_preference_1</string>
+    <string name="category_preference_1">category_preference_1</string>
+    <string name="check_box_1_category_1_screen_preference_1">check_box_1_category_1_screen_preference_1</string>
+    <string name="category_preference_2">category_preference_2</string>
+    <string name="check_box_1_category_2_screen_preference_1">check_box_1_category_2_screen_preference_1</string>
+    <string name="check_box_2_category_2_screen_preference_1">check_box_2_category_2_screen_preference_1</string>
+    <string name="preferences">Preferences</string>
+
+    <string-array name="entries">
+        <item name="one">One</item>
+        <item name="two">Two</item>
+        <item name="three">Three</item>
+    </string-array>
+
+    <string-array name="entry_values">
+        <item name="1">1</item>
+        <item name="2">2</item>
+        <item name="3">3</item>
+    </string-array>
+</resources>

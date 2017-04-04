@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="@string/check_box_preference_1"
+        android:summaryOff="@string/descripton_of_check_box_1_off"
+        android:summaryOn="@string/descripton_of_check_box_1_on"
+        android:title="@string/check_box_1_preference" />
+
+    <ListPreference
+        android:dependency="@string/check_box_preference_1"
+        android:entries="@array/entries"
+        android:entryValues="@array/entry_values"
+        android:key="@string/list_preference_1"
+        android:summary="@string/description_of_list"
+        android:title="@string/list_preference" />
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="@string/check_box_preference_2"
+        android:summary="@string/description_of_check_box_2"
+        android:title="@string/check_box_2_preference" />
+
+    <PreferenceScreen
+        android:dependency="@string/check_box_preference_2"
+        android:key="screen_preference_1"
+        android:summary="@string/description_of_screen_preference"
+        android:title="@string/screen_preference">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/check_box_preference_3_screen_preference_1"
+            android:summary="@string/description_of_check_box_3"
+            android:title="@string/check_box_3_preference"/>
+
+        <PreferenceCategory
+            android:key="@string/category_preference_1"
+            android:summary="@string/description_of_category_preference_1"
+            android:title="@string/category_preference_1_title">
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/check_box_1_category_1_screen_preference_1"
+                android:summary="@string/description_of_check_box_1_of_category_1_of_screen_preference_1"
+                android:title="@string/check_box_1_of_category_1_of_screen_preference_1"/>
+
+        </PreferenceCategory>
+
+        <PreferenceCategory
+            android:key="@string/category_preference_2"
+            android:summary="@string/description_of_category_preference_2"
+            android:title="@string/category_preference_2_title">
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/check_box_1_category_2_screen_preference_1"
+                android:summary="@string/description_of_check_box_1_of_category_2_of_screen_preference_1"
+                android:title="@string/check_box_1_of_category_2_of_screen_preference_1"/>
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/check_box_2_category_2_screen_preference_1"
+                android:summary="@string/description_of_check_box_2_of_category_2_of_screen_preference_1"
+                android:title="@string/check_box_2_of_category_2_of_screen_preference_1"/>
+
+        </PreferenceCategory>
+
+    </PreferenceScreen>
+
+</PreferenceScreen>
